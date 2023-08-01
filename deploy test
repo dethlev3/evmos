@@ -61,4 +61,3 @@ contract LearningEvmos is ERC20, ERC20Burnable, Pausable, Ownable, ERC20Permit, 
     {
         super._burn(account, amount);
     }
-}
